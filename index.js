@@ -91,8 +91,69 @@ evenOrOdd(22);
 evenOrOdd(3);
 
 
+// Loops
+for(let i = 0; i < 20 ; i++){
+  console.log(i);
+}
+
+for(let i=0; i<5; i++){
+  console.log(i + " " +'sandeep')
+}
+
+for(let i=3; i<5; i++){
+  console.log(i + ' ' +"sandeep");
+}
+
+for(let i = 2; i < 9; i=i+2 ){
+  console.log(i)
+}
+
+for(let i = 5; i > 0; i-- ){
+  console.log(i)
+}
+
+for(let i = 5; i < 4; i++){
+  console.log(i)
+}
+// OutPut: the above for will never be true the condition is fails 
+
+// for(let i = 1; i > 0; i++){
+//   console.log(i)
+// }
+// OutPut: the above for will never be stops it will run infinite times
+
+function greet(){
+  console.log("sandeep")
+}
+
+for(let i = 0; i < 5; i++){
+  greet();
+}
+
+let arr = [2, 3, 5, 7, 9, 19, 20, 6, 8];
+
+console.log(arr.length);
+console.log(arr[0])
+
+for(let i = 0; i< arr.length;i++){
+  console.log(arr[i]+ " " +"sandeep")
+}
 
 
+// print all the even numbers from 1 to 100
 
+for(let i=0; i<arr.length; i++){
+  if(arr[i] % 2 == 0){
+    console.log('even number' + " " + arr[i]);
+  }
+  // else{
+  //   console.log('odd number' + " " + arr[i]);
+  // }
+}
 
-
+// while loop
+let i = 0;
+while(i < 5){
+  console.log(i);
+  i++;
+}
