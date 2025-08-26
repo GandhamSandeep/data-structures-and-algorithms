@@ -35,6 +35,60 @@ console.log(obj.a);
 
 
 
+// Functions, If Else, loops -> for loop & while loop and example programs
+
+function greet(){
+  console.log("sandeep")
+}
+greet();
+
+function greet(name){
+  console.log("sandeep" + name)
+}
+greet(" Gandham");
+
+function sumOfTwoNumbers(a, b){
+  return a + b;
+}
+const result = sumOfTwoNumbers(5, 6);
+console.log(result);
+
+
+function multiplication(a,b){
+  let result = a * b;
+  console.log(result);
+}
+multiplication(2,9);
+
+// Create a funcation which accepts the age and tells wether a person is eligible for vote or not
+function voteElgibleCriteria(age){
+  if(age < 0 ){
+    console.log("age cannot be negative");
+  }
+  else if(age >= 18){
+    console.log("you are eligble for vote");
+  }else{
+    console.log("you are not eligble for vote");
+  }
+}
+voteElgibleCriteria(17);
+voteElgibleCriteria(20);
+voteElgibleCriteria(-20);
+
+
+// Create a function to check wether the number is even or odd
+function evenOrOdd(num){
+
+  let rem = num % 2
+
+  if(rem === 0){
+    console.log("even number");
+  }else{
+    console.log("odd number");
+  }
+}
+evenOrOdd(22);
+evenOrOdd(3);
 
 
 
